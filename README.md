@@ -1,23 +1,26 @@
 # TryHackMe Write-ups
 
-Write-ups from [TryHackMe](https://tryhackme.com) rooms by **Marcin Korczak** ([@KordjanCode](https://github.com/KordjanCode)).
+Hi, I'm Marcin ([@KordjanCode](https://github.com/KordjanCode)). This is where I keep my notes from [TryHackMe](https://tryhackme.com) rooms.
 
-Focus areas: **AI/ML & LLM security**, supply chain attacks, web application security and incident response.
+I'm mostly interested in **AI and LLM security**: how models get attacked, how supply chains get poisoned and how to investigate it when something goes wrong. I also do web security and incident response.
 
-> Answers and flags for premium rooms are masked. Each write-up focuses on methodology, evidence, framework mapping (MITRE ATT&CK / ATLAS, OWASP, CWE) and remediation.
+Each write-up walks through a room step by step, the way I actually solved it: what I ran, what I saw and what it told me. At the end I add IOCs, a mapping to MITRE ATT&CK / ATLAS, OWASP and CWE, and what I'd recommend to fix the problem.
 
-## Certifications
-
-- TryHackMe **Cyber Security 101 (SEC1)**: passed
-- TryHackMe **AI Security (AI1)**: in progress
+For premium rooms I mask the answers and flags. The point is to show the process, not to give away solutions.
 
 ## Write-ups
 
-| Room | Path | Category | Key topics |
-|---|---|---|---|
-| [Payload](./payload/README.md) | AI Security › AI Supply Chain Security | Incident Response · ML Forensics | Malicious pickle (`os.system` RCE), Keras `Lambda` backdoor, C2 beacon analysis, hash verification |
+| Room | What it's about |
+|---|---|
+| [Payload](./payload/README.md) | Investigating a backdoored ML model: a malicious pickle running `os.system`, a hidden Keras `Lambda` layer and a C2 beacon split across two artefacts |
 
-## Contact
+More coming as I work through the AI Security path.
 
-- GitHub: [@KordjanCode](https://github.com/KordjanCode)
-- Company: [Cyfrotech](https://cyfro.tech)
+## Certifications
+
+- TryHackMe Cyber Security 101 (SEC1): passed
+- TryHackMe AI Security (AI1): in progress
+
+## Get in touch
+
+If you're working on AI security or want to talk about a project, find me here on GitHub: [@KordjanCode](https://github.com/KordjanCode).
