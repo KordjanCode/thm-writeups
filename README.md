@@ -21,7 +21,7 @@ More coming as I work through the AI Security path.
 
 | Room | What it's about |
 |---|---|
-| [Message to Garcia](./web/messagetogarcia/README.md) ([room](https://tryhackme.com/room/messagetogarcia)) | Turning an unvalidated resource fetcher into local file read via `file://`, dumping the Flask source through `/proc/self/cwd`, and forging a valid Fernet message from the hardcoded key |
+| [Message to Garcia](./web/messagetogarcia.md) ([room](https://tryhackme.com/room/messagetogarcia)) | Turning an unvalidated resource fetcher into local file read via `file://`, dumping the Flask source through `/proc/self/cwd`, and forging a valid Fernet message from the hardcoded key |
 
 ## Certifications
 
