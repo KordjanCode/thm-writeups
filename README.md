@@ -12,7 +12,8 @@ For premium rooms I mask the answers and flags. The point is to show the process
 
 | Room | What it's about |
 |---|---|
-| [Payload](.ai/payload/README.md) ([room](https://tryhackme.com/room/payload)) | Investigating a backdoored ML model: a malicious pickle running `os.system`, a hidden Keras `Lambda` layer and a C2 beacon split across two artefacts |
+| [Payload](./ai/payload/README.md) ([room](https://tryhackme.com/room/payload)) | Investigating a backdoored ML model: a malicious pickle running `os.system`, a hidden Keras `Lambda` layer and a C2 beacon split across two artefacts |
+| [Checkpoint](./ai/checkpoint/README.md) ([room](https://tryhackme.com/room/checkpoint)) | Evaluating four AI code review models before production: a malicious pickle, a Keras `Lambda` loader, an opaque hosted API and a poisoned prompt template linked by one campaign ID |
 
 More coming as I work through the AI Security path.
 
