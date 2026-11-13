@@ -8,7 +8,7 @@ Each write-up walks through a room step by step, the way I actually solved it: w
 
 For premium rooms I mask the answers and flags. The point is to show the process, not to give away solutions.
 
-## Write-ups
+## AI Security
 
 | Room | What it's about |
 |---|---|
@@ -16,6 +16,12 @@ For premium rooms I mask the answers and flags. The point is to show the process
 | [Checkpoint](./ai/checkpoint/README.md) ([room](https://tryhackme.com/room/checkpoint)) | Evaluating four AI code review models before production: a malicious pickle, a Keras `Lambda` loader, an opaque hosted API and a poisoned prompt template linked by one campaign ID |
 
 More coming as I work through the AI Security path.
+
+## Web Security
+
+| Room | What it's about |
+|---|---|
+| [Message to Garcia](./web/messagetogarcia/README.md) ([room](https://tryhackme.com/room/messagetogarcia)) | Turning an unvalidated resource fetcher into local file read via `file://`, dumping the Flask source through `/proc/self/cwd`, and forging a valid Fernet message from the hardcoded key |
 
 ## Certifications
 
