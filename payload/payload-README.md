@@ -1,6 +1,6 @@
 # TryHackMe: Payload
 
-**Room:** Payload (Premium) · **Path:** AI Security › AI Supply Chain Security · **Time:** ~30 min
+**Room:** [Payload](https://tryhackme.com/room/payload) (Premium) · **Path:** AI Security › AI Supply Chain Security · **Time:** ~30 min
 **Author:** Marcin Korczak ([@KordjanCode](https://github.com/KordjanCode))
 
 > This is a premium room, so I masked the answers and the flag. The goal here is to show how I worked through it, not to hand out answers.
