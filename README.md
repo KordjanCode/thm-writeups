@@ -23,6 +23,12 @@ More coming as I work through the AI Security path.
 |---|---|
 | [Message to Garcia](./web/messagetogarcia.md) ([room](https://tryhackme.com/room/messagetogarcia)) | Turning an unvalidated resource fetcher into local file read via `file://`, dumping the Flask source through `/proc/self/cwd`, and forging a valid Fernet message from the hardcoded key |
 
+## Crypto
+
+| Room | What it's about |
+|---|---|
+| [Cipher's Secret Message](./crypto/hfb1cipherssecretmessage.md) ([room](https://tryhackme.com/room/hfb1cipherssecretmessage)) | Reversing a homemade progressive Caesar cipher, where each letter is shifted by its position, with a short Python decoder |
+
 ## Certifications
 
 - TryHackMe Cyber Security 101 (SEC1): passed
