@@ -28,6 +28,7 @@ More coming as I work through the AI Security path.
 | Room | What it's about |
 |---|---|
 | [Cipher's Secret Message](./crypto/hfb1cipherssecretmessage.md) ([room](https://tryhackme.com/room/hfb1cipherssecretmessage)) | Reversing a homemade progressive Caesar cipher, where each letter is shifted by its position, with a short Python decoder |
+| [Order](./crypto/hfb1order.md) ([room](https://tryhackme.com/room/hfb1order)) | Breaking a repeating-key XOR cipher with a known-plaintext attack: the fixed `ORDER:` header reveals the whole key |
 
 ## Certifications
 
