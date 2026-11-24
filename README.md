@@ -14,6 +14,7 @@ For premium rooms I mask the answers and flags. The point is to show the process
 |---|---|
 | [Payload](./ai/payload/README.md) ([room](https://tryhackme.com/room/payload)) | Investigating a backdoored ML model: a malicious pickle running `os.system`, a hidden Keras `Lambda` layer and a C2 beacon split across two artefacts |
 | [Checkpoint](./ai/checkpoint/README.md) ([room](https://tryhackme.com/room/checkpoint)) | Evaluating four AI code review models before production: a malicious pickle, a Keras `Lambda` loader, an opaque hosted API and a poisoned prompt template linked by one campaign ID |
+| [UnIndexed](./ai/unindexedchallenge.md) ([room](https://tryhackme.com/room/unindexedchallenge)) | Probing Cloudwright Labs' staff-level assistant Atlas and retrieving board-level records through ordinary questions, because the RAG store had no document-level access control |
 
 More coming as I work through the AI Security path.
 
