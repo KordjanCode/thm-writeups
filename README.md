@@ -16,6 +16,7 @@ For premium rooms I mask the answers and flags. The point is to show the process
 | [Checkpoint](./ai/checkpoint/README.md) ([room](https://tryhackme.com/room/checkpoint)) | Evaluating four AI code review models before production: a malicious pickle, a Keras `Lambda` loader, an opaque hosted API and a poisoned prompt template linked by one campaign ID |
 | [UnIndexed](./ai/unindexedchallenge.md) ([room](https://tryhackme.com/room/unindexedchallenge)) | Probing Cloudwright Labs' staff-level assistant Atlas and retrieving board-level records through ordinary questions, because the RAG store had no document-level access control |
 | [Lockdown](./ai/lockdownai.md) ([room](https://tryhackme.com/room/lockdownai)) | Auditing Meridian Security Group's assistant Bastion: confirming three RAG flaws (unfiltered retrieval, sensitive logs, no tenant isolation) and describing the right control for each |
+| [BankGPT](./ai/bankgpt.md) ([room](https://tryhackme.com/room/bankgpt)) | Getting SecureBank's staff assistant BankGPT to leak a secret key by asking it to write an internal admin memo that quotes, exactly, the values staff must never share |
 
 More coming as I work through the AI Security path.
 
